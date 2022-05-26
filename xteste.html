@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: rgb(0, 128, 122);
+          h1 {
+            
+            }
+            #senha{
+                padding: 20px ;
+            }
+        }
+    </style>
+    <script>
+        function inicio() {
+        e =String(prompt('qual o seu nome ?'))
+        a = String(prompt('digite uma senha !'))
+        }
+    function conf (){
+       var user = document.getElementById('usuario')
+       var key = document.getElementById('senha')
+       var ser1 = String(user.value)
+       var key1 = String(key.value)
+        ser1 == e && key1 == a  ? alert('Bem vindo',e) : alert('vc errou ')
+   }
+</script>
+</head>
+<body>
+    <h1>elc</h1>
+    <h2>criar conta </h2>
+    <br><button type="button"onclick= "inicio()"> iniciar</button></br>
+     <label for="usuario">usuario</label>
+    <input type="text" id="usuario" >
+    <br><label for="senha"> senha</label>
+    <input type="text" id="senha"></br>
+    <br> <button type="button" id="but" onclick="conf()">entrar</button></br>
+</body>
+</html>

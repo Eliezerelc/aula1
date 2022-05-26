@@ -1,0 +1,25 @@
+body {
+   background-color: black;
+   color: white;
+}
+.hae  {
+    background-color: blue;
+    width: 100%;
+    height: auto;
+}
+.hae ul {
+    list-style-type: none;
+}
+.hae ul li {
+    display: inline-block;
+    margin-right: 100px;
+}
+.hae ul li a {
+text-decoration: none;
+color: black;
+}
+.hae ul li a:hover {
+  background-color: aqua; 
+  color: beige;
+  border-radius: 10px;
+    }

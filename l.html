@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        window.onload = function inicio (){
+            d = new Date();
+            i = d.getDay();
+        ArrayDias = ['dominga', 'segunda','terca','quarta','quinta','sexta','sabado '];
+        o = ArrayDias[i]
+        alert(o);
+        }  
+       
+        function oi (){
+            a = window.document.getElementById('t');
+            c = window.document.getElementById('z');
+            res = String(c.value);
+            Tex = String(a.value);
+             res.innertext = tex;
+        }
+         
+    </script>
+</head>
+<body>
+     <div id="z">
+        aaaaa
+     </div>
+    <input type="text"  id="t">
+      <button type="button" onclick="oi()"> oi</button>
+   
+</body>
+</html>
